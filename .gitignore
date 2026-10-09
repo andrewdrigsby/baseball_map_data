@@ -1,0 +1,19 @@
+# Raw Statcast pulls and caches stay on the local machine
+bip_*.csv
+cache_*/
+*.csv.gz
+
+# ArcGIS outputs
+*.gdb/
+*.lock
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
